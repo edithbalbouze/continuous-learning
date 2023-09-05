@@ -1,8 +1,9 @@
 import './App.css'
+import {LoginForm} from "./sections/auth/LoginForm";
 
 function App() {
   return (
-     <h1>My Wallet</h1>
+     <LoginForm/>
   )
 }
 
